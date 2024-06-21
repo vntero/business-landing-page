@@ -1,8 +1,38 @@
-# business-landing-page
+# create-svelte
 
-A generic sme landing page built using SvelteKit and Tailwind CSS. It uses componentry, global stores, state, responsive web design, props, and more. Shipped with a landing page, calls to action, user reviews section, functional links, interactivity, FAQs, and a conversion section.
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
 
-# The way it was started
+## Creating a project
 
-1. npm create svelte@latest business-landing-page
-2. initilized with a skeleton project using eslinting without TypeScript
+If you're seeing this, you've probably already done this step. Congrats!
+
+```bash
+# create a new project in the current directory
+npm create svelte@latest
+
+# create a new project in my-app
+npm create svelte@latest my-app
+```
+
+## Developing
+
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+
+```bash
+npm run dev
+
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
+
+## Building
+
+To create a production version of your app:
+
+```bash
+npm run build
+```
+
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.

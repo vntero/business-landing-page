@@ -1,6 +1,38 @@
 <script>
+    import ProductCard from "./ProductCard.svelte";
     import SectionWrapper from "./SectionWrapper.svelte";
-    let productFeatures=[]
+    let productFeatures=[
+        {
+            featureList: [
+                'Curly',
+                'Flat',
+                'Mixed',
+                'Bold'
+            ],
+            description: 'We take care of all kinds of hair, making sure you feel fabulous afterwards.',
+            imgUrl: ''
+        },
+        {
+            featureList: [
+                'Wash & Cut',
+                'Cut & Go',
+                'Razor away',
+                'Full throttle'
+            ],
+            description: 'Depending on your time, we give you the best look possible!',
+            imgUrl: ''
+        },
+        {
+            featureList: [
+                'Nails',
+                'Skin',
+                'Feet',
+                'Depilation'
+            ],
+            description: 'Need a helping hand? We got covered there too.',
+            imgUrl: ''
+        },
+    ]
 </script>
 
 <SectionWrapper id="project">
@@ -14,8 +46,13 @@
             </h3>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-14 md:gap14 lg:gap-20 relative text-base">
-            {#each productFeatures as productFeature}
-                
+            {#each productFeatures as productFeature, index}
+                <ProductCard {productFeature} {index} >
+                    {#if index === 0}
+                        {:else if index === 1}
+                        {:else}
+                    {/if}
+                </ProductCard>
             {/each}
         </div>
     </div>

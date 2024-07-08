@@ -13,8 +13,9 @@
             for <span class="text-indigo-400">busy people</span>
         </h2>
         <p class="text-xl sm:text-2xl md:text-3xl text-center max-w-[1000px] mx-auto w-full">
-            Who says looking good has to be a burden? We're the stylists in your 
-            <span class="italic">neighbourhood</span> & much much more.
+            Who says looking good has to be a burden? 
+            <span class="italic">We're the stylists in your neighbourhood</span> & much much more.
         </p>
+        <CTAs/>
     </div>
 </SectionWrapper>

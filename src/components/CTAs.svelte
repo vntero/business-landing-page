@@ -9,4 +9,9 @@
         </p>
     </button>
 
+    <button class="specialBtnDark">
+        <p class="text-base sm:text-lg md:text-xl">
+            Get started &rarr;
+        </p>
+    </button>
 </div>

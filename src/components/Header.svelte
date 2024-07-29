@@ -8,7 +8,7 @@
     >
         <a href="/">
             <h1 class="font-semibold">
-                Swoley <span class="text-indigo-400">Moley</span>
+                Café au Lait
             </h1>
         </a>
         <button

@@ -10,7 +10,7 @@
                 'Bold'
             ],
             description: 'We take care of all kinds of hair, making sure you feel fabulous afterwards.',
-            imgUrl: ''
+            imgUrl: 'assets/selection.png'
         },
         {
             featureList: [
@@ -20,7 +20,7 @@
                 'Full throttle'
             ],
             description: 'Depending on your time, we give you the best look possible!',
-            imgUrl: ''
+            imgUrl: 'assets/training.png'
         },
         {
             featureList: [
@@ -30,7 +30,7 @@
                 'Depilation'
             ],
             description: 'Need a helping hand? We got covered there too.',
-            imgUrl: ''
+            imgUrl: 'assets/goal.png'
         },
     ]
 </script>

@@ -8,7 +8,7 @@
     >
         <a href="/">
             <h1 class="font-semibold">
-                Café au Lait
+                Castro <span class="text-indigo-400">Coiffure</span>
             </h1>
         </a>
         <button
